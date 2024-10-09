@@ -66,5 +66,6 @@ re: fclean all
 
 mlxfclean: fclean
 	@rm -rf $(LIBMLX)
+	@rm -rf MLX
 
 .PHONY: all clean fclean re libmlx
