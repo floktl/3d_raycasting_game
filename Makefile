@@ -6,7 +6,7 @@
 #    By: flo <flo@student.42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/06/04 14:26:27 by fkeitel           #+#    #+#              #
-#    Updated: 2024/06/21 01:39:51 by flo              ###   ########.fr        #
+#    Updated: 2024/10/09 16:17:26 by flo              ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -66,6 +66,6 @@ re: fclean all
 
 mlxfclean: fclean
 	@rm -rf $(LIBMLX)
-	@rm -rf MLX
+	@rm -rf MLX42
 
 .PHONY: all clean fclean re libmlx
